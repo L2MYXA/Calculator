@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Concert One, Times New Roman;
+  font-weight: 600;
+}
+
+input{
+  height: 7vh;
+  width: 100%;
+  border-radius: 1vh;
+  border-color: transparent;
+  text-align: right;
+  padding-right: 7px;
+  font-size: 3vh;
+
+}
+
+button{
+  background-color:  #285732;
+  border-color: transparent;
+  margin: 1px;
+  color: #4d8f9b;
+  font-weight: 900;
+  font-size: 4vh;
+  border-radius: 15%;
+  padding: 0;
+  text-align: center;
+  text-shadow: 2px 2px 1px #3d6679;
+
+}
+
+button:hover{
+  background-color: #2d5235;
+  border-color: transparent;
+  margin: 1px;
+  color: #65d9dd;
+  font-weight: 900;
+  font-size: 4vh;
+  border-radius: 15%;
+  padding: 0;
+  text-align: center;
+  transition-duration: 150ms;
+}
+
+html, body{
+  height: 100%;
+  background-color:	#86A68F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.bg_margin{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc_window{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#697d71 ;
+  border-radius: 5%;
+  box-shadow: 0px 5px 20px 1px rgb(112, 112, 112);
+  height: 80vh;
+  width: 65vh;
+  padding: 20px 10px 20px 10px;
+}
+
+.main_grid{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 1fr 1fr 6fr;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.input_div{
+  display: flex;
+  align-items: center;
+}
+.oper_buttons{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+
+}
+
+.lower_part{
+  display: grid;
+  grid-template-columns: 14fr 5fr;
+  column-gap: 5px;
+
+}
+
+.numbers{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 3px;
+  grid-row-gap: 3px;
+}
+
+.zero_equal{
+  display: grid;
+  grid-template-rows: 2.29fr 5fr;
+  row-gap: 5px;
+}
+
